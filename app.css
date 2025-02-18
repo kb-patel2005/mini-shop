@@ -1,0 +1,49 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 3vw;
+    border: 2px solid black;
+}
+.logo{
+    width:20%;
+}
+.search{
+    width: 15%;
+}
+.cardpage{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    justify-content: center;
+    margin: 3px;
+}
+.a{
+    text-decoration: none;
+   
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3px 5px;
+    height:auto;
+}
+.proCard:hover{
+    box-shadow: 0 4px 4px 0 rgba(144, 132, 132, 0.2), 0 4px 4px 0 rgba(220, 213, 213, 0.19);    
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background: black;
+    border: black;
+    height: 4vh;
+    border-radius: 20px;
+    margin:1vh 0vw;
+}
+button{
+    height: 6vh;
+    max-width: 24vw;
+    margin: 0.5vw;
+}
