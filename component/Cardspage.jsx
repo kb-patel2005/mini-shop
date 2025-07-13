@@ -11,7 +11,7 @@ export default function Cardspage() {
 
   useEffect(()=>{
   fetch('https://fakestoreapi.com/products',
-          maxResults: 20,
+          maxResults: 1,
         },)
   .then(res=>res.json())
   .then(res1=>setData(res1))
