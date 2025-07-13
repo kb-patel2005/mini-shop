@@ -10,7 +10,9 @@ export default function Cardspage() {
   const [[query,setQuery],[seco,setSeco]] = useContext(DataCon);
 
   useEffect(()=>{
-  fetch('https://fakestoreapi.com/products')
+  fetch('https://fakestoreapi.com/products',
+          maxResults: 20,
+        },)
   .then(res=>res.json())
   .then(res1=>setData(res1))
   },[]);
